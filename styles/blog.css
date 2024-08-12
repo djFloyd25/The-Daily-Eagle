@@ -1,0 +1,481 @@
+#cs-content {
+    padding-top: 50px;
+}
+#cs-content .cs-custom-hr {
+    width: 100%; /* Ensure it's wide enough */
+    height: 0.5px; /* Ensure it's thin enough */
+    border: none; /* Remove default border */
+    background-color: black; /* Set a background color if needed */
+  }
+#cs-content .cs-middle-section {
+    margin: 24px 0 24px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cs-content .cs-middle-image {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cs-content .cs-image-holder {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+}
+#cs-content .cs-middle-photo {
+    width: 100%;
+    height: auto;
+}
+#cs-content .cs-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+#cs-content .cs-row {
+    box-sizing: border-box;
+    display: block;
+    flex-wrap: wrap;
+    line-height: 24px;
+    text-align: left;
+    padding: 0 15px;
+    width: 1140px;
+}
+#cs-content .cs-col {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    line-height: 24px;
+    padding: 0 15px 0 15px;
+    margin: 0 -15px 0 -15px;
+    position: relative;
+    text-align: left;
+}
+#cs-content .cs-intro {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 24px;
+    margin: 0 -15px 24px -15px;
+    text-align: left;
+}
+#cs-content .cs-link-text {
+    color: black;
+    text-decoration: none;
+}
+#cs-content .cs-link-author {
+    color: #3c70b7;
+    text-decoration: none;
+}
+#cs-content .cs-trending-left {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 66.67%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0 15px 0 15px;
+    position: relative;
+}
+#cs-content .cs-school {
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+}
+#cs-content .cs-school-row {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 0 -15px;
+}
+#cs-content .cs-writer-info {
+    width: 810px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#cs-content .cs-school-image {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 0px;
+    padding: 0 15px 0 15px;
+    position: relative;
+    margin-bottom: -18px;
+}
+#cs-content .cs-article-image-main{
+    cursor: pointer;
+    height: auto;
+    width: 100%;
+}
+#cs-content .cs-school-text {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 0px;
+    padding: 0 15px 0 15px;
+    position: relative;
+}
+#cs-content .cs-school-headline {
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+#cs-content .cs-school-info {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 0px;
+}
+#cs-content .cs-school-summary {
+    box-sizing: border-box;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+}
+#cs-content .cs-trending-right {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 33.33%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 0px;
+    padding: 0 15px 0 15px;
+    position: relative;
+}
+#cs-content .cs-header-2 {
+    text-align: center;
+    margin-top: 0;
+}
+#cs-content .cs-trending-article {
+    box-sizing: border-box;
+    display: block;
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: 20px;
+}
+#cs-content .cs-article-text {
+    font-size: 15px;
+    line-height: 18px;
+}
+#cs-content .cs-article-text-main {
+    font-size: 14px;
+}
+#cs-content .cs-article-author {
+    font-size: 10px;
+    line-height: 18px;
+    margin-top: -5px;
+}
+#cs-content .cs-3-articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px -15px 0 -30px;
+    padding-bottom: 24px;
+    width: 1140px;
+    justify-content: space-between;
+} 
+#cs-content .cs-article {
+    box-sizing: border-box;
+    display: block;
+    padding: 4px 15px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    position: relative;
+    width: 380px;
+}
+#cs-content .cs-article-total {
+    box-sizing: border-box;
+    display: block;
+    width: 350px;
+}
+#cs-content .cs-article-row {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px 0;
+}
+#cs-content .cs-article-image-holder {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+}
+#cs-content .cs-article-image {
+    box-sizing: border-box;
+    display: block;
+}
+#cs-content .cs-article-image-profile {
+    width: 100%;
+    aspect-ratio: calc(100 / 56);
+}
+#cs-content .cs-3-articles-image {
+    width: 100%;
+    aspect-ratio: calc(100 / 56);
+}
+#cs-content .cs-article-title {
+    font-size: 16px;
+    margin: 0;
+}
+#cs-content .cs-article-title-main {
+    line-height: 35px;
+}
+#cs-content .cs-article-info {
+    padding: 0 15px;
+}
+#cs-content .cs-final-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px -15px 0 -15px;
+    width: 1140px;
+}
+#cs-content .cs-final-column-1 {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 0px;
+    flex-grow: 1;
+    padding: 0 15px;
+    width: 810px;
+}
+#cs-content .cs-final-row-1, .cs-final-row-3 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px -15px 24px -15px;
+    padding: 24px 0;
+    width: 100%;
+}
+#cs-content .cs-final-row-1-column {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 0px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-right: 15px;
+    position: relative;
+    width: 50%;
+}
+#cs-content .cs-final-row-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px -15px;
+    padding: 24px 0;
+    margin-left: 0;
+}
+#cs-content .cs-final-row-2-info {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 16px;
+    width: 100%;
+}
+#cs-content .cs-final-row-2-info .cs-info {
+    text-decoration: none;
+    background-color: #3c70b7;
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+}
+#cs-content .cs-final-row-2-info .cs-info:hover {
+    text-decoration: underline;
+}
+#cs-content .cs-final-row-2-link {
+    box-sizing: border-box;
+    display: block;
+}
+#cs-content .cs-final-row-2-header {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding-right: 15px;
+}
+#cs-content .cs-final-row-2-header .cs-text {
+    text-decoration: none;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 40px;
+}
+#cs-content .cs-final-row-2-header .cs-text:hover {
+    color: rgba(0, 0, 0, .7);
+}
+#cs-content .cs-final-row-3 {
+    margin: 0 -15px;
+}
+#cs-content .cs-final-column-2 {
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0 15px;
+    position: relative;
+    width: 330px;
+}
+#cs-content .cs-final-add {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #cs-content .cs-middle-section {
+        width: 100%;
+    }
+    #cs-content .cs-image-holder {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #cs-content .cs-middle-photo {
+        width: 350px;
+        height: auto;
+    }
+}
+@media (max-width: 360px) {
+    #cs-content .cs-middle-photo {
+        width: 280px;
+        height: auto;
+    }
+}
+@media (max-width: 1200px) {
+    #cs-content .cs-row {
+        width: 960px;
+    }
+    #cs-content .cs-final-section {
+        width: 960px;
+    }
+    #cs-content .cs-3-articles {
+        width: 960px;
+    }
+    #cs-content .cs-article {
+        width: 320px;
+    }
+    #cs-content .cs-article-total {
+        width: 290px;
+    }
+    #cs-content .cs-final-column-1 {
+        width: 630px;
+    }
+}
+@media (max-width: 992px) {
+    #cs-content .cs-row {
+        width: 720px;
+    }
+    #cs-content .cs-final-section {
+        width: 720px;
+    }
+    #cs-content .cs-final-column-1 {
+        width: 720px;
+    }
+    #cs-content .cs-final-column-2 {
+        width: 720px;
+    }
+    #cs-content .cs-final-add {
+        width: 50%;
+    }
+    #cs-content .cs-3-articles {
+        width: 720px;
+    }
+    #cs-content .cs-article {
+        width: 240px;
+    }
+    #cs-content .cs-article-total {
+        width: 210px;
+    }
+    #cs-content .cs-final-row-1-column .cs-article-total {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    #cs-content .cs-row {
+        width: 540px;
+    }
+    #cs-content .cs-final-section {
+        width: 540px;
+    }
+    #cs-content .cs-final-column-1 {
+        width: 540px;
+    }
+    #cs-content .cs-final-column-2 {
+        width: 540px;
+    }
+    #cs-content .cs-3-articles {
+        width: 540px;
+    }
+    #cs-content .cs-article {
+        width: 540px;
+    }
+    #cs-content .cs-article-total {
+        width: 510px;
+        padding-bottom: 30px;
+    }
+    #cs-content .cs-article .cs-article-image-holder {
+        flex-basis: 33.33%;
+    }
+    #cs-content .cs-article .cs-article-info {
+        flex-basis: 66.67%;
+    }
+    #cs-content .cs-trending-left {
+        flex-basis: 100%;
+    }
+    #cs-content .cs-trending-right {
+        flex-basis: 100%;
+    }
+}
+@media (max-width: 576px) {
+    #cs-content .cs-row {
+        width: 100%;
+        margin: 0;
+    }
+    #cs-content .cs-final-section {
+        width: 100%;
+        margin: 0;
+    }
+    #cs-content .cs-final-column-1 {
+        width: 100%;
+    }
+    #cs-content .cs-final-column-2 {
+        width: 100%;
+    }
+    #cs-content .cs-3-articles {
+        width: 100%;
+        margin: 0;
+        margin-top: 24px;
+    }
+    #cs-content .cs-article {
+        width: 100%;
+        padding: 0;
+    }
+    #cs-content .cs-article-total {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #cs-content .cs-article-title {
+        font-size: 14px;
+    }
+    #cs-content .cs-article .cs-article-image-holder {
+        flex-basis: 33.33%;
+    }
+    #cs-content .cs-article .cs-article-info {
+        flex-basis: 66.67%;
+    }
+    #cs-content .cs-school-headline {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

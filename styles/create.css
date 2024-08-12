@@ -1,0 +1,207 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*-- -------------------------- -->
+  <---     Header    -->
+  <--- -------------------------- -*/
+
+#cs-header {
+    box-sizing: border-box;
+}
+#cs-header .cs-top-bar{
+    display: grid;
+    top: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+#cs-header .cs-top-logo {
+    height: 100px;
+}
+#cs-header .cs-top-picture {
+    max-width: 100%;
+    max-height: 100px;
+}
+#cs-header .cs-page-name {
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#cs-header .cs-top-profile {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+#cs-header .cs-top-profile-picture {
+    border-radius: 25px;
+    cursor: pointer;
+    width: auto;
+    height: 100%;
+}
+#cs-header .cs-profile-name {
+    text-align: center;
+    font-size: 24px;
+}
+#cs-header .cs-li {
+    display: inline-block;
+}
+
+
+
+  /*-- -------------------------- -->
+  <---     Header Dropdown    -->
+  <--- -------------------------- -*/
+  
+  /* Styles for mobile */
+@media only screen and (max-width: 1023px) {
+    #cs-header .cs-li {
+        text-align: center;
+        width: 100%;
+        display: block;
+        list-style: none;
+    }
+    #cs-header .cs-dropdown {
+        position: relative;
+        color: var(--bodyTextColorWhite);
+        list-style: none;
+    }
+    #cs-header .cs-dropdown.cs-active .cs-drop-ul {
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+        margin: 0.75rem 0 0 0;
+        padding: 0.75rem 0;
+    }
+    #cs-header .cs-drop-ul {
+        width: 100%;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        background-color: var(--primary);
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+        transition: padding .3s, margin .3s, height .3s, opacity .3s, visibility .3s;
+    }
+    #cs-header .cs-drop-li {
+        list-style: none;
+    }
+    #cs-header .cs-li-link.cs-drop-link {
+        font-size: clamp(0.875rem, 2vw, 1.25rem);
+        color: #fff;
+    }
+}
+
+/* Styles for desktop */
+@media only screen and (min-width: 64rem) {
+    #cs-header .cs-li.cs-dropdown {
+        list-style-type: none;
+        width: 100%;
+    }
+    #cs-header .cs-dropdown {
+        position: relative;
+    }
+    #cs-header .cs-top-profile-pictre {
+        width: 0.75rem;
+        height: auto;
+        margin-left: 0.25rem;
+        display: inline-block;
+    }
+    #cs-header .cs-drop-ul {
+        min-width: 12.5rem;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 16px;
+        border-bottom: 5px solid var(--primary);
+        position: absolute;
+        top: 100%;
+        z-index: -100;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform .3s, visibility .3s, opacity .3s;
+    }
+    #cs-header .cs-dropdown.cs-active .cs-drop-ul {
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+        z-index: 100;
+    }
+    #cs-header .cs-drop-li {
+        list-style: none;
+        font-size: 1rem;
+        text-decoration: none;
+        opacity: 0;
+        width: 100%;
+        height: auto;
+        display: block;
+        transform: translateY(-0.625rem);
+        transition: opacity .6s, transform .6s;
+    }
+    #cs-header .cs-dropdown.cs-active .cs-drop-li {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    #cs-header .cs-li-link.cs-drop-link {
+        font-size: 1rem;
+        white-space: nowrap;
+        line-height: 1.5em;
+        text-decoration: none;
+        width: 100%;
+        padding: 0.75rem;
+        box-sizing: border-box;
+        color: var(--bodyTextColor);
+        display: block;
+        transition: color 0.3s, background-color 0.3s;
+    }
+    #cs-header .cs-li-link.cs-drop-link:hover {
+        color: var(--primary);
+        background-color: #f7f7f7;
+    }
+}
+
+/*-- -------------------------- -->
+  <---     Main Section    -->
+  <--- -------------------------- -*/
+
+#cs-main .cs-col {
+    display: flex;
+    flex-direction: column;
+}
+#cs-main .cs-row-1 {
+    display: flex;
+}
+#cs-main .cs-row-2 {
+    margin-bottom: 10px;
+}
+#cs-main .cs-image-url, .cs-title, .cs-genre, .cs-article {
+    width: 100%;
+    margin-right: 5px;
+}
+#article-image {
+    width: 100%;
+}
+#cs-main .cs-submit #submit {
+    cursor: pointer;
+}
+#cs-main .cs-row-3-editor {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
